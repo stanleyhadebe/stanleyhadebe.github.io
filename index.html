@@ -20,7 +20,12 @@
             50% { background-position: 100% 50%; } 
             100% { background-position: 0% 50%; } 
         }
-        .section { padding: 50px 0; background-color: rgba(255, 255, 255, 0.9); }
+        .section { padding: 50px 0;
+             background-color: rgba(255, 255, 255, 0.85);
+             border-radius: 10px; /* Softer edges */
+             margin: 20px auto; /* Center horizontally, gap vertically */
+             max-width: 1140px; /* Match Bootstrap .container max-width */
+             }
         .header { background-color: rgba(0, 123, 255, 0.9); color: white; text-align: center; padding: 60px 0; }
         .project-card { margin-bottom: 20px; }
         .profile-pic { 
@@ -53,7 +58,7 @@
     <div class="container section">
         <h2>About Me</h2>
         <div class="text-center">
-            <img src="profile.jpg" alt="Stanley Hadebe" class="profile-pic">
+            <img src="profile.webp" alt="Stanley Hadebe" class="profile-pic">
         </div>
         <p>Results-driven Software Engineer with a BSc in Computer Science and Computer Engineering. Skilled in C, C++, Python, JavaScript, and Java, with expertise in React Native, Firebase, and embedded systems. Passionate about scalable applications and solving complex problems.</p>
     </div>
